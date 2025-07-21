@@ -1,0 +1,32 @@
+[package]
+name = "food-delivery-platform"
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+chrono = { version = "0.4.41", features = ["serde"] }
+reqwest = { version = "0.12.22", features = ["json"] }
+rocket = { version = "0.5.1", features = ["json", "secrets"] }
+serde = { version = "1.0.219", features = ["derive"] }
+sqlx = { version = "0.8.6", features = [
+    "runtime-tokio-rustls",
+    "postgres",
+    "chrono",
+    "uuid",
+] }
+tokio = { version = "1.46.1", features = ["full"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
+uuid = { version = "1.17.0", features = ["serde"] }
+
+[workspace]
+members = [
+    "services/delivery-service",
+    "services/notification-service",
+    "services/order-service",
+    "services/payment-service",
+    "services/restaurant-service",
+    "services/user-service",
+    "shared/auth",
+    "shared/common",
+]

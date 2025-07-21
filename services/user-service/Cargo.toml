@@ -1,0 +1,17 @@
+[package]
+name = "user-service"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rocket.workspace = true
+serde.workspace = true
+tokio.workspace = true
+sqlx.workspace = true
+uuid.workspace = true
+chrono.workspace = true
+bcrypt = "0.17.0"
+jsonwebtoken = "9.3.1"
+validator = { version = "0.20.0", features = ["derive"] }
+shared-common = { version = "0.1.0", path = "../../shared/common" }
+shared-auth = { version = "0.1.0", path = "../../shared/auth" }
