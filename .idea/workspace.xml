@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml">
+      <package file="$PROJECT_DIR$/services/delivery-service">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$PROJECT_DIR$">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$PROJECT_DIR$/services/notification-service">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$PROJECT_DIR$/services/order-service">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$PROJECT_DIR$/services/payment-service">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$PROJECT_DIR$/services/restaurant-service">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$PROJECT_DIR$/shared/auth">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$PROJECT_DIR$/shared/common">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$PROJECT_DIR$/services/user-service">
+        <enabledFeature name="default" />
+      </package>
+    </cargoProject>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1346b0f4-f4a8-4712-b33e-c66cf7560e04" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/user-service/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/services/user-service/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/user-service/src/repository/repository.rs" beforeDir="false" afterPath="$PROJECT_DIR$/services/user-service/src/repository/repository.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/auth/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/auth/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/common/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/shared/common/src/lib.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="vWCBQRW9" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="30BN46y8gEKwrNjTlnTXbsFwVA5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.disableDetachedFileInspection/home/sanjay/work/rust/food-delivery-platform/shared/auth/src/guards/guards.rs": "true",
+    "org.rust.first.attach.projects": "true",
+    "settings.editor.selected.configurable": "language.rust",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="/usr/bin" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1346b0f4-f4a8-4712-b33e-c66cf7560e04" name="Changes" comment="" />
+      <created>1753096812889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753096812889</updated>
+      <workItem from="1753096814627" duration="8000" />
+      <workItem from="1753096836410" duration="14000" />
+      <workItem from="1753097177184" duration="241000" />
+      <workItem from="1753097428063" duration="272000" />
+      <workItem from="1753114902077" duration="192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
